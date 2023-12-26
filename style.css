@@ -19,11 +19,16 @@ img{
     margin-top: -40px;
 }
 
-  #yes {
+ #yes {
         font-size: 30px;
-    }
+}
 
-    #no {
+#no {
+    transition: transform 0.5s ease;
         margin-top: 30px;
         font-size: 30px;
     }
+
+#no:hover {
+    cursor: pointer;
+}
