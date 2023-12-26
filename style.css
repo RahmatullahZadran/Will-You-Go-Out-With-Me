@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: pink;
@@ -9,3 +9,21 @@ body{
     font-style: italic;
     margin-top: 10%;
 }
+
+img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+  #yes {
+        font-size: 30px;
+    }
+
+    #no {
+        margin-top: 30px;
+        font-size: 30px;
+    }
