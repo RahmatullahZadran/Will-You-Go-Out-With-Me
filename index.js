@@ -1,4 +1,5 @@
-
+var intervalId;
+var isMoving = false;
 function changePicture() {
     var image = document.getElementById("image");
     image.src = "images/Pic2.png";
@@ -6,16 +7,27 @@ function changePicture() {
 
 function moveButton() {
     var button = document.getElementById("no");
-    button.style.transform = "translate(-20px, -20px)";
+    button.style.transform = "translate(-100px, -100px)";
 }
 
-function startButton() {
+function moveButton() {
+    var button = document.getElementById("no");
+    button.style.transform = "translate(-100px, -100px)";
+}
+function startMoving() {
     intervalId = setInterval(moveButton, 50);
 
 }
  
-function stopButton() {
+function stopMoving() {
     clearInterval(intervalId);
     var button = document.getElementById("no");
-    button.style.transform = "translate(0px, 0px)";
+    button.style.transform = "translate(100px, 100px)";
 }
+
+function stopMoving() {
+    clearInterval(intervalId);
+    var button = document.getElementById("no");
+    button.style.transform = "translate(60px, 100px)";
+}
+
