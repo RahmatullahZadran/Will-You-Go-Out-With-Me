@@ -10,10 +10,6 @@ function moveButton() {
     button.style.transform = "translate(-100px, -100px)";
 }
 
-function moveButton() {
-    var button = document.getElementById("no");
-    button.style.transform = "translate(-100px, -100px)";
-}
 function startMoving() {
     intervalId = setInterval(moveButton, 50);
 
@@ -24,10 +20,3 @@ function stopMoving() {
     var button = document.getElementById("no");
     button.style.transform = "translate(100px, 100px)";
 }
-
-function stopMoving() {
-    clearInterval(intervalId);
-    var button = document.getElementById("no");
-    button.style.transform = "translate(60px, 100px)";
-}
-
